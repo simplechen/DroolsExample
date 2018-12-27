@@ -42,12 +42,12 @@ public class Application {
 //          ageSumStream.insert( p1 );
 //          ageSumStream.insert( p2 );
         ks.insert(p1);
-        ks.insert(p2);
         try {
-            Thread.sleep(1000);
+            Thread.sleep(5000);
         } catch (InterruptedException e) {
             System.out.println(e);
         }
+        ks.insert(p2);
 //      }
 
 
@@ -55,6 +55,7 @@ public class Application {
         System.out.println("总执行了" + count + "条规则------------------------------");
 
         ks.dispose();
+        System.out.println(p1.getAge()+"------------"+p2.getAge());
     }
 
 

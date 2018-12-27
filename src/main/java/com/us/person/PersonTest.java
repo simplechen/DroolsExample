@@ -16,12 +16,8 @@ import org.kie.api.runtime.rule.QueryResultsRow;
  */
 public  class PersonTest {
     static KieSession getSession() {
-
-
         KieServices ks = KieServices.Factory.get();
-
         KieContainer kc = ks.getKieClasspathContainer();
-
         return kc.newKieSession("simpleRuleKSession");
     }
 

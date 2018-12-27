@@ -9,9 +9,9 @@
         <ksession name="HelloWorldKS"/>
     </kbase>
 
-    <kbase name="FireKB" packages="com.us.fire">
-        <ksession name="FireKS"/>
-    </kbase>
+    <!--<kbase name="FireKB" packages="com.us.fire">-->
+        <!--<ksession name="FireKS"/>-->
+    <!--</kbase>-->
 
 
     <kbase name="TemplatesKB" packages="com.us.templates">
@@ -41,11 +41,8 @@
         <ksession name="PersonAgeKS"/>
     </kbase>
 
-    <!--fusion -->
-    <!--<kbase name="fusionAge" equalsBehavior="equality" eventProcessingMode="stream" packages="com.us.fusion6">-->
-        <!--<ksession name="fusionAgeKS" default="true" type="stateful" clockType="pseudo"/>-->
-    <!--</kbase>-->
+    <!--fusion-->
     <kbase name="fusionAge" eventProcessingMode="stream" packages="com.us.fusion7">
-        <ksession name="fusionAgeKS"  clockType="pseudo"/>
+        <ksession name="fusionAgeKS" clockType="pseudo"/>
     </kbase>
 </kmodule>

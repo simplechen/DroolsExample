@@ -5,6 +5,7 @@ import org.kie.api.event.rule.DebugAgendaEventListener;
 import org.kie.api.event.rule.DebugRuleRuntimeEventListener;
 import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,12 +15,22 @@ import java.util.List;
 public class HelloWorld {
     public static final void main(final String[] args) {
         // KieServices is the factory for all KIE services
-        KieServices ks = KieServices.Factory.get();
+        try {
+            for (int i = 0; i < 10; i++) {
+                KieServices ks = KieServices.Factory.get();
 
-        // From the kie services, a container is created from the classpath
-        KieContainer kc = ks.getKieClasspathContainer();
+                // From the kie services, a container is created from the classpath
+                KieContainer kc = ks.getKieClasspathContainer();
 
-        execute(kc);
+
+                Thread.sleep(5000);
+                execute(kc);
+                kc.dispose();
+            }
+
+        } catch (Exception e) {
+            System.out.println(e);
+        }
     }
 
     public static void execute(KieContainer kc) {
@@ -58,6 +69,7 @@ public class HelloWorld {
 
         // and then dispose the session
         ksession.dispose();
+        ksession.destroy();
     }
 
     public static class Message {
