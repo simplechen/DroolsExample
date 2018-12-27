@@ -9,11 +9,6 @@
         <ksession name="HelloWorldKS"/>
     </kbase>
 
-    <!--<kbase name="FireKB" packages="com.us.fire">-->
-        <!--<ksession name="FireKS"/>-->
-    <!--</kbase>-->
-
-
     <kbase name="TemplatesKB" packages="com.us.templates">
         <ruleTemplate dtable="com/us/templates/ExampleCheese.xls"
                       template="com/us/templates/Cheese.drt"
@@ -42,7 +37,7 @@
     </kbase>
 
     <!--fusion-->
-    <kbase name="fusionAge" eventProcessingMode="stream" packages="com.us.fusion7">
+    <kbase name="fusionAge" eventProcessingMode="stream" packages="com.us.fusion">
         <ksession name="fusionAgeKS" clockType="pseudo"/>
     </kbase>
 </kmodule>
