@@ -38,6 +38,6 @@
 
     <!--fusion-->
     <kbase name="fusionAge" eventProcessingMode="stream" packages="com.us.fusion">
-        <ksession name="fusionAgeKS" clockType="pseudo"/>
+        <ksession name="fusionAgeKS" type="stateful"/>
     </kbase>
 </kmodule>
