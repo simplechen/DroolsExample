@@ -5,7 +5,7 @@ import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
 
 /**
- * Created by yangyibo on 16/12/29.
+ * @author  yyb
  */
 public class PersonAgeTest {
         static KieSession getSession() {

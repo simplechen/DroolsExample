@@ -5,11 +5,8 @@ import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
 
 /**
- * Created by yangyibo on 16/12/13.
+ * @author  yyb
  */
-
-
-
 public class DrinkBeer {
     private static KieSession getSession() {
         KieServices ks = KieServices.Factory.get();

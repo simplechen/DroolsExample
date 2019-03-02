@@ -5,7 +5,7 @@ import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
 
 /**
- * Created by yangyibo on 16/12/21.
+ * @author  yyb
  */
 
 // 过生日，则加10分，并且将当月交易翻倍后再计算积分

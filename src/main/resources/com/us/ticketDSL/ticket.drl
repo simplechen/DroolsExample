@@ -1,6 +1,6 @@
 //package com.us.ticketDSL
-//import com.us.ticketDSL.Customer;
-//import com.us.ticketDSL.Ticket;
+//import Customer;
+//import Ticket;
 //
 //function void sendEscalationEmail( Customer customer, Ticket ticket ) {
 //    System.out.println( "Email : " + ticket );

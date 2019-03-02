@@ -1,7 +1,7 @@
 package com.us.ticketDSL;
 
 /**
- * Created by yangyibo on 16/12/21.
+ * @author  yyb
  */
 public class Ticket {
     private Customer customer;

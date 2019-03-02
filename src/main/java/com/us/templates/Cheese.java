@@ -16,6 +16,9 @@
 
 package com.us.templates;
 
+/**
+ * @author  yyb
+ */
 public class Cheese {
     private String type;
     private int    price;

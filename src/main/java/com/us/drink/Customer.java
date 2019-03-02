@@ -1,7 +1,7 @@
 package com.us.drink;
 
 /**
- * Created by yangyibo on 16/12/13.
+ * @author  yyb
  *
  * 饮酒客户
  */

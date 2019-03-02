@@ -6,9 +6,9 @@ import org.kie.api.runtime.KieContainer;
 import org.kie.api.runtime.KieSession;
 
 /**
- * Created by yangyibo on 16/12/22.
+ * @author  yyb
  */
-public class personTemp {
+public class PersonTemp {
 
     static KieSession getSession() {
         KieServices ks = KieServices.Factory.get();

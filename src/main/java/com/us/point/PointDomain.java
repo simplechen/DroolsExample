@@ -3,7 +3,7 @@ package com.us.point;
 import java.io.Serializable;
 
 /**
- * Created by yangyibo on 16/12/21.
+ * @author  yyb
  */
 public class PointDomain implements Serializable {
     static final long serialVersionUID = 1L;

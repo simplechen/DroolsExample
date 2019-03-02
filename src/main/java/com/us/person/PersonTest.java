@@ -12,7 +12,7 @@ import org.kie.api.runtime.rule.QueryResultsRow;
 
 
 /**
- * Created by yangyibo on 16/12/7.
+ * @author  yyb
  */
 public  class PersonTest {
     static KieSession getSession() {

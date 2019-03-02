@@ -24,7 +24,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * This shows off a very simple rule template where the data provider is a spreadsheet.
+ * @author  yyb
  */
 public class SimpleRuleTemplateExample {
 

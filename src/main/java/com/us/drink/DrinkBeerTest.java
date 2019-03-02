@@ -3,7 +3,7 @@ package com.us.drink;
 import java.util.Scanner;
 
 /**
- * Created by yangyibo on 16/12/13.
+ * @author  yyb
  */
 public class DrinkBeerTest {
     public static void main(String[] args) {

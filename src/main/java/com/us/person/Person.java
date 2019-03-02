@@ -1,7 +1,7 @@
 package com.us.person;
 
 /**
- * Created by yangyibo on 16/12/7.
+ * @author  yyb
  */
 public class Person {
     private String name;
